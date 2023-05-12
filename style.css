@@ -1,0 +1,162 @@
+
+/* css */
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body{
+    background-color: #8a94ce4d;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-family: 'Sigmar', cursive;
+    margin: 0px;
+    text-shadow: 1px 1px 1px rgba(243, 0, 0, 0.473);
+}
+
+header {
+    background-image: linear-gradient(to top, #536BF5, #283375);
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.397);
+}
+header > img{
+    border-radius: 50%;
+    border:3px solid rgba(48, 47, 47, 0.842);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.842);
+    
+} 
+header img:hover{
+    border-radius: 50%;
+    border:3px solid rgba(255, 255, 255, 0.842);
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.842); 
+    transform: translate(-10px, -10px);  
+    transition: .6s;
+    
+}
+
+    header > h1 {
+        padding: 30px 10px 10px 10px;
+        font-family: 'Bebas Neue';
+        font-size: 2.8em;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px 2px black ;
+    }
+    
+
+    header > p {
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+        line-height: 1.5em;
+    }
+
+
+
+
+     main > h1, h2 {
+        background-image: linear-gradient(to right, #4B60DB, white);
+        font-family: 'Sigmar', cursive;
+        color: #121836;
+        text-indent: 10px;
+        text-shadow: 2px 2px 2px white;
+        padding: 0px;
+        margin: 0px;
+
+    }
+    a{
+        font-weight: bold;
+        background-color: #3E4FB5;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 4px black;
+        line-height: 2.5em;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+    a:hover{
+        border: 3px solid rgb(255, 255, 255);
+        box-shadow: 5px 5px 10px black;
+        transition: transform .6s;
+    }
+
+    
+     p {
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 1.5em;
+        margin: 0px;  
+        padding: 20px 0px 20px 0px;  
+
+    }
+
+     p > em {
+        color: #3E4FB5;
+        font-style: normal;
+        font-weight: bold;
+    }
+    div {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        padding: 30px 20px 15px 20px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
+    
+    }
+    .habilidades:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .coluna {
+        float: left;
+        width: 50%;
+    }
+    
+    .coluna > ul{ 
+        list-style: none;
+        padding: 15px;
+        margin: 0px;
+
+    }
+
+
+footer {
+    background-color: #283375;
+    border-right-width: 0px;
+    height: 10px;
+    padding: 10px 0px 15px 0px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    
+}
+
+    footer > p {
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+        font-style: italic;
+        text-align: center;
+
+    }
+
+    footer > p > a {
+        font-weight: bold;
+        background-color: #297c8d;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.719);
+        line-height: 0em;
+    }
+    footer > p > a:hover {
+        border: 3px solid rgb(255, 255, 255);
+        box-shadow: 5px 5px 10px black;
+        transform: translate(-10px, -10px);
+        transition: transform .6s;
+    }
